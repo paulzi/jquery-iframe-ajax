@@ -10,6 +10,9 @@ Thumbs.db
 # npm
 /node_modules
 
+# bower
+/bower_components
+
 # composer itself is not needed
 composer.phar
 composer.lock
