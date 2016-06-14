@@ -1,6 +1,5 @@
 {
   "name": "jquery-iframe-ajax",
-  "version": "1.0.0",
   "description": "jQuery IFrame AJAX Transport (emulation upload files via AJAX)",
   "main": [
     "dist/jquery-iframe-ajax.js"

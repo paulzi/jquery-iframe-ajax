@@ -120,6 +120,9 @@ $.ajaxTransport('+*', function(options) {
                             params[i].remove();
                         }
                     }
+                    if (options.iframeOnSubmit) {
+                        options.iframeOnSubmit();
+                    }
                 };
 
                 if (options.form) {

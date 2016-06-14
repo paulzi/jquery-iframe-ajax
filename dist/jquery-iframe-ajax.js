@@ -2,7 +2,7 @@
  * jQuery IFrame AJAX
  * @see https://github.com/paulzi/jquery-iframe-ajax
  * @license MIT (https://github.com/paulzi/jquery-iframe-ajax/blob/master/LICENSE)
- * @version 1.0.0
+ * @version 1.0.1
  */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
@@ -160,6 +160,9 @@ $.ajaxTransport('+*', function(options) {
                         for (i = 0; i < params.length; i++) {
                             params[i].remove();
                         }
+                    }
+                    if (options.iframeOnSubmit) {
+                        options.iframeOnSubmit();
                     }
                 };
 

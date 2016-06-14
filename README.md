@@ -66,6 +66,13 @@ $(document).on('click', function () {
 });
 ```
 
+## Options
+
+- `iframe` - enable iframe transport
+- `files` - array of `input[type="file"]` or jQuery object with similar elements (using if `form` option is not set)
+- `form` - form or jQuery object with form (option `files` will be ignored)
+- `iframeOnSubmit` - callback after iframe form submit
+
 ## Response handling
 
 By default, the iframe does not provide information about the response, such as:
