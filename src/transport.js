@@ -90,7 +90,7 @@ $.ajaxTransport('+*', function(options) {
                             headers = headers ? type + "\r\n" + headers : type;
                         }
                         var content;
-                        if ($textarea.size()) {
+                        if ($textarea.length) {
                             content = {text: $textarea.val()};
                         } else {
                             content = {
