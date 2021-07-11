@@ -5,7 +5,7 @@
 
 Library provides transport to emulate AJAX via hidden iframe. In the first place necessary for AJAX uploading files to older browsers do not support the XMLHttpRequest 2.
 
-Demo: http://paulzi.ru/jquery-iframe-ajax/
+Demo: https://paulzi.ru/misc/github/jquery-iframe-ajax/
 
 [Russian readme](https://github.com/paulzi/jquery-iframe-ajax/blob/master/README.ru.md)
 

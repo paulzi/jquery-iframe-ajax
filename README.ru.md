@@ -5,7 +5,7 @@
 
 Библиотека предоставляет транспорт для эмулирования AJAX через скрытый iframe. Это в превую очередь необходимо для загрузки файлов на сервер через браузеры, которые не поддерживают XMLHttpRequest 2.
 
-Демо: http://paulzi.ru/jquery-iframe-ajax/
+Демо: https://paulzi.ru/misc/github/jquery-iframe-ajax/
 
 [English readme](https://github.com/paulzi/jquery-iframe-ajax/)
 
